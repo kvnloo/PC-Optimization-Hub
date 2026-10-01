@@ -1,0 +1,41 @@
+schema: 1
+experiment:
+  id: example-frame-pacing
+  hypothesis: "Changing the limiter changes tail frame pacing without changing average FPS."
+  repetitions: 5
+system:
+  os: null
+  kernel: null
+  cpu: null
+  gpu: null
+  driver: null
+display:
+  refresh_hz: null
+  vrr: null
+input:
+  device: null
+  polling_hz: null
+workload:
+  name: null
+  version: null
+  duration_s: 60
+controls:
+  warmup_s: 30
+  background_process_policy: fixed
+  thermal_state: stabilized
+variants:
+  - id: A
+    changes: {}
+  - id: B
+    changes: {}
+metrics:
+  - frametime_ms
+  - present_interval_ms
+  - cpu_busy_ms
+  - gpu_busy_ms
+  - pc_latency_ms
+report:
+  percentiles: [50, 95, 99]
+  include_max: true
+  include_raw_artifacts: true
+  include_run_variance: true
