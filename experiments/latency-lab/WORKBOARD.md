@@ -8,7 +8,7 @@ Checked 2026-10-01. "Downstream" means experimentation is allowed in our fork/la
 | P0 | PresentMon | P02 full-trace paced-polling determinism reproducer for #662 | draft in `kvnloo/PresentMon#1` | green: repo ships agent guidance |
 | P0 | CapFrameX | Optional `MsPCLatency` parser/layout regression baseline | draft in `kvnloo/CapFrameX#1` | green: repo ships `AGENTS.md`, `CLAUDE.md`, MCP/Claude support |
 | P0 | threejs-game-skills | Deterministic browser aim-latency profiler + summarizer | draft in `kvnloo/threejs-game-skills#1` | downstream; upstream promotion not yet checked |
-| P1 | SparkEngine | Verify real-Present benchmark semantics and exact-SHA replay for #576 | ready to pick up after fork | green: project explicitly documents AI-assisted development |
+| P1 | SparkEngine | Verify real-Present benchmark semantics and exact-SHA replay for #576 | upstream qualification comment posted; code fork still needed | green: project explicitly documents AI-assisted development |
 | P1 | gamescope | 144/240/360/480 Hz frame-pacing matrix for #2412 | experiment spec ready | gated: no explicit AI policy confirmed |
 | P1 | RawAccel | 1/2/4/8 kHz deterministic packetization replay for #294 | experiment spec ready | gated: no explicit AI policy confirmed |
 | P1 | MangoHud | limiter early/late vs DXVK + metric provenance | experiment spec ready | gated: no explicit AI policy confirmed |
